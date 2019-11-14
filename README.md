@@ -1,5 +1,29 @@
+# js-band-hw-task-1
 
-# Homework 1
+[GitPages](http://ras.pp.ua/js-band-hw-task-1 "GitPages")
+
+To run this application, check that latest versions of Git, Node.js and npm or yarn is installed on your computer.
+
+Available commands:
+
+```bash
+# Install dependencies:
+$ npm install
+$ yarn
+
+# Run app
+$ npm run build:dev
+$ yarn run build:dev
+
+# Build app
+$ npm run build:prod
+$ yarn run build:prod
+
+```
+
+----
+
+## Task
 
 We have a new potential client, it’s one of the biggest logistics companies **“JS Band Delivery”**.
 It uses two types of transporting **by trucks** and **by railway**. The company has a plan to diversify transportation types and introduce new ones, such as **Aero**.
@@ -84,3 +108,5 @@ const DEFAULT_TRUCK = {
 - Functionality should be split into `modules`;
 - Functionality should be implemented via `Class` statement;
 - Two methods should be implemented.
+  
+----
