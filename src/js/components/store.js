@@ -25,11 +25,9 @@ export default class Store {
 
   static create(e) {
     e.preventDefault();
-    // 'aa123ss', 'Diesel', 123, 'Ford', 1985, '2000kg', 80
     const form = e.target;
     const type = e.target.id;
     const id = `${(+new Date()).toString(16)}`;
-    // console.log('→ type', type);
 
     if (type === 'newShip') {
       const name = form.querySelector('#name').value;

@@ -1,8 +1,6 @@
 // Render
 export default class Render {
   static addElements(store) {
-    // const addedTransport = document.getElementById('addedTransport');
-    // const addedCostOfDelivery = document.getElementById('addedCostOfDelivery');
     const addedShips = document.getElementById('addedShips');
     const addedTrucks = document.getElementById('addedTrucks');
     const addedCosts = document.getElementById('addedCosts');
